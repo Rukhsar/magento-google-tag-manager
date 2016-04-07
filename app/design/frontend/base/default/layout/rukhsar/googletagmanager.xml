@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+
+<!--
+Default layout, loads most of the pages
+-->
+
+    <default>
+        <!-- Rukhsar_GoogleTagManager -->
+        <reference name="after_body_start" before="-">
+            <block type="googletagmanager/gtm" name="rukhsar_google_tag_manager" as="rukhsar_google_tag manager" template="rukhsar/googletagmanager/gtm.phtml" />
+        </reference>
+    </default>
+</layout>
